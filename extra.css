@@ -1,0 +1,247 @@
+  [data-md-color-accent=black] .md-typeset a:active, [data-md-color-accent=black] .md-typeset a:hover {
+    color: blue!important;
+  }
+  
+  .md-typeset a {
+      color: #3f51b5!important;
+  }
+
+  [data-md-color-accent=red] .md-nav__link:focus, [data-md-color-accent=red] .md-nav__link:hover {
+    color: #3f51b5!important;
+  }
+
+  html .md-footer-meta.md-typeset a {
+    color: white!important
+  }
+
+  .hero-img {
+    width: 100vw;
+    height: 15vh;
+  }
+
+  .book-image, .video-image {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .cover-image {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .video-image p {
+    margin-bottom: 40px;
+  }
+
+  .book, .poetry {
+    position: relative;
+  }
+
+  .book-link {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+  }
+
+  .book-link p, .video-link p {
+    background:#f3eab2;
+    border-radius: 5px;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #E0B24D;
+    padding: 5px;
+  }
+
+  .book-link p:hover,
+  .video-link p:hover,
+  .purchase-link p:hover,
+  .audio-link p:hover {
+    background: none;
+  }
+
+  .audio-link {
+    width: 23.5%;
+    float: left;
+    margin: 4px 8px 0 0;
+    height: 30px !important;
+  }
+
+  .audio-link p {
+    margin: 1px;
+    text-align: center;
+    border: 1px solid #E0B24D;
+    border-radius: 5px;
+    background:#f3eab2;
+  }
+
+  .video-link p {
+    height: 35px !important;
+  }
+
+  .book-link a, .purchase-link a, .video-link a, .audio-link a {
+    color: #E0B24D !important;
+    font-weight: bold;
+  }
+
+  .purchase-link p {
+    background:#f3eab2;
+    border-radius: 5px;
+    width: 30%;
+    margin: 5px auto;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #E0B24D;
+  }
+
+  .article-image {
+    width: 25%;
+    margin-right: 20px;
+    float: left;
+  }
+
+  .article-para {
+    margin-top: 4%;
+  }
+
+  .cat-img img {
+    height: 180px;
+    margin: 0 0 0 30px;
+  }
+
+  .audio-img, .zp-logo {
+    text-align: center;
+  }
+
+  .zp-small {
+    width: 40%;
+  }
+
+  .audio-img img {
+    border-radius: 50%;
+    width: 40%;
+  }
+
+  .center-poem {
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .center-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .center-img {
+    margin-left: 23%;
+  }
+
+  .callout {
+    border: 1px solid #0E879B;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #DAF0FC;
+    padding: 10px;
+    box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+  }
+
+  .callout1 {
+    background-image: linear-gradient(to right, #FCF0A6, #ffffff);
+    padding: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    line-height: 22px;
+    margin: 10px 0 30px 0;
+    border-bottom-left-radius: 80% 60px;
+    border-top-left-radius: 20% 50px;
+    border: 1px solid #fff;
+  }
+
+  .callout2 {
+    background-color: #D3E4F1;
+    padding: 20px;
+    font-weight: 400;
+  }
+
+  .callout3 {
+    background-color: #EBF3F9;
+    padding: 20px;
+    font-weight: 400;
+  }
+
+  .callout4 {
+    background-image: url('/assets/images/brushstroke.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    line-height: 22px;
+    margin: 10px 0 30px 0;
+  }
+
+  .callout5 {
+    background-image: url('/assets/images/brushstroke3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    line-height: 22px;
+    margin: 10px 0 30px 0;
+  }
+
+  .callout6 {
+    background-image: url('/assets/images/brushstroke4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    line-height: 22px;
+    margin: 10px 0 30px 0;
+  }
+
+  .ab-image {
+    width: 70%;
+  }
+
+  .md-footer-nav {
+    background-image: linear-gradient(#0E879B,#E0B24D);
+  }
+
+  .clear {
+    clear: both;
+  }
+
+@media (max-width: 761px) {
+  .hero-img {
+    height: 16vh;
+  }
+
+  .md-typeset h1 {
+    font-size: 1.25rem
+  }
+
+  .md-typeset h2 {
+    font-size: 1rem;
+  }
+
+  .cat-img img {
+    height: auto;
+    margin: 0;
+  }
+
+  .audio-link {
+    margin: 4px 4px 0 0;
+    width: 30%;
+  }
+
+  .center-img {
+    margin-left: none;
+  }
+}
