@@ -188,7 +188,7 @@
   }
 
   .callout4 {
-    background-image: url('backup/assets/images/brushstroke4.png');
+    background-image: url('/backup/assets/images/brushstroke4.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 100px;
@@ -200,7 +200,7 @@
   }
 
   .callout5 {
-    background-image: url('backup/assets/images/brushstroke3.png');
+    background-image: url('/backup/assets/images/brushstroke3.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
@@ -212,7 +212,7 @@
   }
 
   .callout2 {
-    background-image: url('backup/assets/images/brush.svg');
+    background-image: url('/backup/assets/images/brush.svg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
@@ -228,7 +228,7 @@
   }
 
   .div {
-    background-image: url('backup/assets/images/div.jpg');
+    background-image: url('/backup/assets/images/div.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 50px;
